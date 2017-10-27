@@ -7,11 +7,23 @@ class WishDB extends mysqli {
     private static $instance = null;
 
 
-    // db connection config vars
+    // db connection config vars for server-x10hosting
     private $user = "bbptsand";
     private $pass = "radhalove";
     private $dbName = "bbptsand_CMS";// 
     private $dbHost = "xo7.x10hosting.com";
+    
+     // db connection config vars for localhost-mamp-imac
+//    private $user = "bbptsand";
+//    private $pass = "radhalove";
+//    private $dbName = "bbptsand_CMS";// 
+//    private $dbHost = "xo7.x10hosting.com";
+    
+     // db connection config vars for locaholhost-xampp-netbook
+//    private $user = "bbptsand";
+//    private $pass = "radhalove";
+//    private $dbName = "bbptsand_CMS";// 
+//    private $dbHost = "xo7.x10hosting.com";
     
      //This method must be static, and must return an instance of the object if the object
  //does not already exist.
